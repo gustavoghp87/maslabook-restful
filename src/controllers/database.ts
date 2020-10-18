@@ -2,9 +2,12 @@ import { config } from 'dotenv'; config()
 import mongoose from 'mongoose'
 
 
-const uri = process.env.DB || ''
-
-export const connectDB = mongoose.connect(uri, {
-    useNewUrlParser:true,
-    useUnifiedTopology:true
-})
+export const connectDB = async (uri:string) => {
+    try {
+        await mongoose.connect(uri, {
+            useNewUrlParser:true,
+            useUnifiedTopology:true
+        })
+        console.log("\nDB connected\n")
+    } catch {"Failed DB"}
+}

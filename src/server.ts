@@ -2,23 +2,21 @@ import express from 'express'
 import morgan from 'morgan'
 import indexRoutes from './routes/index.routes'
 import { connectDB } from './controllers/database'
+import cors from 'cors'
+
 
 const app = express()
 
-// settings
 app.set('port', process.env.PORT || 8005)
-connectDB
 
-app.set('view engine', 'ejs');
+connectDB(process.env.DB || '')
 
-// middlewares
+app.use(cors({origin:'http://localhost:3000'}))
 app.use(morgan('dev'));
-app.use(express.urlencoded({extended: false}))
 app.use(express.json());
 
-// routes
-app.use('/', indexRoutes)
+app.use('/api', indexRoutes)
 
 app.listen(app.get('port'), () => {
-  console.log(`server on port ${app.get('port')}`)
+  console.log(`\nServer on port ${app.get('port')}\n`)
 })
