@@ -15,13 +15,13 @@ export const searchGet = async (req:any, res:any) => {
 export const searchPost = async (req:any, res:any) => {
 
     try {
-        // const respon = req.body['g-recaptcha-response']
-        // const google = 'https://www.google.com/recaptcha/api/siteverify'
-        // const verifyURL = `${google}?secret=${secretKey}&response=${respon}&remoteip=${req.connection.remoteAddress}`
-        
-        // const axios = await Axios(verifyURL)
-        // const data = await axios.data
-        // if (!data.success) return res.json({success:false, msg:"Captcha no verificado"})
+        const respon = req.body.result
+        const google = 'https://www.google.com/recaptcha/api/siteverify'
+        const verifyURL = `${google}?secret=${secretKey}&response=${respon}`
+        const axios = await Axios(verifyURL)
+        const data = await axios.data
+        console.log(data)
+        if (!data.success) return res.json({success:false, msg:"Captcha no verificado"})
   
         console.log("LLEGÖ", req.body)
     

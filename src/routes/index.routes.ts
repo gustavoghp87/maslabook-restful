@@ -11,9 +11,9 @@ const router = express.Router()
 export const counterPsw = process.env.counterPsw
 export const secretKey = process.env.secretKey
 
-router.get('/search', searchGet)
+router.get('/maslabook', searchGet)
 
-router.post('/search', searchPost)
+router.post('/maslabook', searchPost)
 
 router.get('/maslastory', story)
 
