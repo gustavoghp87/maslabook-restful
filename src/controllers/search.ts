@@ -1,9 +1,18 @@
 import { Post } from '../model/Post'
 import { Search } from '../model/Search'
 import { createCollection } from './createCollection'
+import Axios from 'axios'
+import { counterPsw, secretKey } from '../routes/index.routes'
 
 
-export const search = async (req:any, res:any) => {
+export const searchGet = async (req:any, res:any) => {
+    try {
+        Axios(`https://api.countapi.xyz/update/maslabook/${counterPsw}?amount=1`)
+    } catch(e) {console.log("Error en el contador: " + e)}
+    const posts = await Post.find({ $and: [{"socialNet":"fb"}, {"year":2048}]}).limit(11)
+}
+
+export const searchPost = async (req:any, res:any) => {
 
     try {
         // const respon = req.body['g-recaptcha-response']
@@ -167,16 +176,13 @@ export const search = async (req:any, res:any) => {
         
         if (queryYears[0] && queryMonths[0]) {
             
-            //try{await Search.create(busqueda)} catch(e) {console.log("Error al almacenar búsqueda: " + e)}
-            console.log(objJSON);
-            
-            var posts:any = await Post.find(objJSON).limit(limit).sort({timest: 1});
+            try{await Search.create(busqueda); console.log("Búsqueda guardada en DB")}
+            catch(e) {console.log("Error al almacenar búsqueda: " + e)}
     
-            res.json({posts})
-    
-        } else {
-            var posts:any = await Post.find({ $and: [{socialNet:"fb"}, {year:2048}]}).limit(1);
-        }
+//            var posts:any = await Post.find(objJSON).limit(limit).sort({timest:1})
+            res.json({posts: await Post.find(objJSON).limit(limit).sort({timest:1})})
+
+        } else res.json({posts:[]})
   
     } catch (e) {
       console.log(e)
