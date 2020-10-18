@@ -11,7 +11,7 @@ app.set('port', process.env.PORT || 8005)
 
 connectDB(process.env.DB || '')
 
-app.use(cors({origin:'http://localhost:3000'}))
+app.use(cors())
 app.use(morgan('dev'));
 app.use(express.json());
 
