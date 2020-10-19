@@ -9,7 +9,7 @@ export const searchGet = async (req:any, res:any) => {
     try {
         Axios(`https://api.countapi.xyz/update/maslabook/${counterPsw}?amount=1`)
     } catch(e) {console.log("Error en el contador: " + e)}
-    const posts = await Post.find({ $and: [{"socialNet":"fb"}, {"year":2048}]}).limit(11)
+    res.status(200)
 }
 
 export const searchPost = async (req:any, res:any) => {
