@@ -6,11 +6,11 @@ export const counter = async (req:any, res:any) => {
 
     if (req.body.password!==process.env.COUNTER_PW) return res.status(400).json({msg:'Wrong password'})
   
-    let json:any, axios:any, data:any
+    let axios:any, data:any
   
     axios = await Axios(`https://api.countapi.xyz/get/maslabook/${counterPsw}`)
     data = await axios.data
-    json.push( {counter:data.value})
+    let json:any = {counter:data.value}
   
     axios = await Axios(`https://api.countapi.xyz/get/maslastory/${counterPsw}`)
     data = await axios.data
