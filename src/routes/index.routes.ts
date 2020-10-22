@@ -5,6 +5,7 @@ import { story } from '../controllers/story'
 import { boardsGet, boardsPost } from '../controllers/boards'
 import { zoom } from '../controllers/zoom'
 import { counter } from '../controllers/counter'
+import { bot } from '../controllers/bot'
 
 
 const router = express.Router()
@@ -25,5 +26,6 @@ router.get('/maslazoom', zoom)
 
 router.post('/counter', counter)
 
+router.post('/bot', bot)
 
 export default router

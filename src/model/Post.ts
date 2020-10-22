@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 
 
-const PostSchema = new mongoose.Schema({
+export const Post = mongoose.model('posts', new mongoose.Schema({
   innerId: String,
   timest: String,
   date: String,
@@ -14,6 +14,4 @@ const PostSchema = new mongoose.Schema({
   month: String,
   year: String,
   tags: String
-})
-
-export const Post = mongoose.model('posts', PostSchema)
+}))
