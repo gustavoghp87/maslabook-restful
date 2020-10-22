@@ -1,6 +1,7 @@
 import { Post } from '../model/Post'
 import { COUNTER_PW } from '../controllers/counter'
 
+
 export const bot = async (req:any, res:any) => {
 
     console.log(`Recibe petición de bot a las ${Date()}`)
