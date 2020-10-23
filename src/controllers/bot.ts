@@ -21,8 +21,8 @@ export const bot = async (req:any, res:any) => {
     }
     choosen = choose()
 
-    // while (choosen.includes('@')) choose()
-    while (choosen.includes('@')) choosen = choosen.replace('@', '')
+    while (choosen.includes('@')) choose()
+    // while (choosen.includes('@')) choosen = choosen.replace('@', '')
 
     res.status(200).json(choosen)
 }
