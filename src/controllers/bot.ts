@@ -1,5 +1,5 @@
 import { Post } from '../model/Post'
-import { COUNTER_PW } from '../controllers/counter'
+import { COUNTER_PW } from '../routes/index.routes'
 
 
 export const bot = async (req:any, res:any) => {
