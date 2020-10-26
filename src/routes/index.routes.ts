@@ -11,6 +11,8 @@ import { bot } from '../controllers/bot'
 const router = express.Router()
 export const counterPsw = process.env.counterPsw
 export const secretKey = process.env.secretKey
+export const COUNTER_PW = process.env.COUNTER_PW
+
 
 router.get('/maslabook', searchGet)
 

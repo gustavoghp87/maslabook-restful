@@ -1,12 +1,11 @@
 import Axios from 'axios'
-import { counterPsw } from '../routes/index.routes'
+import { counterPsw, COUNTER_PW } from '../routes/index.routes'
 
-
-export const COUNTER_PW = process.env.COUNTER_PW
 
 export const counter = async (req:any, res:any) => {
 
     if (req.body.password!==COUNTER_PW) return res.status(400).json({msg:'Wrong password'})
+    console.log("Password correcto")
   
     let json = []
     let axios:any, data:any
