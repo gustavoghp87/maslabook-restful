@@ -24,8 +24,8 @@ export const bot = async (req:any, res:any) => {
     while (choosen.includes('@')) choose()
     // while (choosen.includes('@')) choosen = choosen.replace('@', '')
 
-    if (choosen.includes('pic.twitter')) choosen.replace('pic.twitter', ' pic.twitter')
-    if (choosen.includes('facebook.com')) choosen.replace('facebook.com', ' facebook.com')
+    if (choosen.includes('pic.twitter')) choosen = choosen.replace('pic.twitter', ' pic.twitter')
+    if (choosen.includes('facebook.com')) choosen = choosen.replace('facebook.com', ' facebook.com')
 
     res.status(200).json(choosen)
 }
