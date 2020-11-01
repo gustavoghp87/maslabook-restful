@@ -9,39 +9,43 @@ export const bot = async (req:any, res:any) => {
     const { password } = req.body
     if (password!==COUNTER_PW) return res.status(400)
 
-    const post:any = await Post.find(
-        {$or: [
-            {$and: [{socialNet:'tw'}, {user:'CarlosMaslaton'}]},
-            {socialNet:'fb'}
-        ]}
-    )
+    // const post:any = await Post.find(
+    //     {$or: [
+    //         {$and: [{socialNet:'tw'}, {user:'CarlosMaslaton'}]},
+    //         {socialNet:'fb'}
+    //     ]}
+    // )
 
-    let random:number, choosen:string
-    const choose = () => {
-        random = Math.floor(Math.random() * post.length)
-        console.log("Random:", random, ", red:", post[random].socialNet)
-
-        if (post[random].socialNet==='tw') choosen = post[random].post
-        
-        if (post[random].socialNet==='fb') {
-            const url = post[random].postUrl.includes('\n')
-                ? post[random].postUrl.replace('\n','')
-                : post[random].postUrl
-            const len = 280 - url.length - 5 + 24
-            choosen = `${post[random].post.slice(0,len)} ... ${url}`
-        }
-
-        console.log("Choosen:", choosen)
-        return choosen
+    let choosen:any
+    const choose = async () => {
+        let random:number
+        random = Math.floor(Math.random() * 46066)
+        const post:any = await Post.findOne({innerId:random})
+        console.log("Random:", random, ", red:", post.socialNet, "post:", post.post)
+        choosen = post
     }
-    choosen = choose()
-
-    while (choosen.includes('@')) choose()
+    await choose()
+    // while (choosen.post.includes('@')) {console.log("INCLUYE @");await choose()}
     // while (choosen.includes('@')) choosen = choosen.replace('@', '')
+    while (
+        choosen.socialNet==='tw' &&
+        (choosen.user!=='CarlosMaslaton' || choosen.post.includes('@'))
+    ) await choose()
 
-    if (choosen.includes('pic.twitter')) choosen = choosen.replace('pic.twitter', ' pic.twitter')
-    if (choosen.includes('.https:')) choosen = choosen.replace('.https:', '. https:')
-    if (choosen.includes(':https:')) choosen = choosen.replace(':https:', ': https:')
+    let post_text:string
+    if (choosen.socialNet==='tw') post_text = choosen.post
+    else {
+        const url = choosen.postUrl.includes('\n')
+            ? choosen.postUrl.replace('\n','')
+            : choosen.postUrl
+        const len = 280 - url.length - 5 + 23
+        post_text = `${choosen.post.slice(0,len)} ... ${url}`
+    }
+    console.log("post_text:", post_text)
 
-    res.status(200).json(choosen)
+    if (post_text.includes('pic.twitter')) post_text = post_text.replace('pic.twitter', ' pic.twitter')
+    if (post_text.includes('http:')) post_text = post_text.replace('http:', ' http:')
+    //if (post_text.includes(':https:')) post_text = post_text.replace(':https:', ': https:')
+
+    res.status(200).json(post_text)
 }
