@@ -31,6 +31,7 @@ export const bot = async (req:any, res:any) => {
         choosen.socialNet==='tw' &&
         (choosen.user!=='CarlosMaslaton' || choosen.post.includes('@'))
     ) await choose()
+    while (choosen.post.includes('soundcloud.com')) await choose()
 
     let post_text:string
     if (choosen.socialNet==='tw') post_text = choosen.post
