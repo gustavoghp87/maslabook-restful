@@ -27,10 +27,8 @@ export const bot = async (req:any, res:any) => {
     await choose()
     // while (choosen.post.includes('@')) {console.log("INCLUYE @");await choose()}
     // while (choosen.includes('@')) choosen = choosen.replace('@', '')
-    while (
-        choosen.socialNet==='tw' &&
-        (choosen.user!=='CarlosMaslaton' || choosen.post.includes('@'))
-    ) await choose()
+    while (choosen.socialNet==='tw' && choosen.user!=='CarlosMaslaton') await choose()
+    while (choosen.socialNet==='tw' && choosen.post.includes('@')) await choose()
     while (choosen.post.includes('soundcloud.com')) await choose()
 
     let post_text:string
