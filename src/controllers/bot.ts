@@ -6,30 +6,29 @@ export const bot = async (req:any, res:any) => {
 
     console.log(`Recibe petición de bot a las ${Date()}`)
 
-    const { password } = req.body
-    if (password!==COUNTER_PW) return res.status(400)
-
-    // const post:any = await Post.find(
-    //     {$or: [
-    //         {$and: [{socialNet:'tw'}, {user:'CarlosMaslaton'}]},
-    //         {socialNet:'fb'}
-    //     ]}
-    // )
+    const { password } = req.body; if (password!==COUNTER_PW) return res.status(400)
 
     let choosen:any
     const choose = async () => {
         let random:number
         random = Math.floor(Math.random() * 46066)
         const post:any = await Post.findOne({innerId:random})
-        console.log("Random:", random, ", red:", post.socialNet, ", user:", post.user, "post:", post.post)
+        console.log("Random:", random, ", red:", post.socialNet, ", user:", post.user, ", post:", post.post)
         choosen = post
     }
     await choose()
+
     // while (choosen.post.includes('@')) {console.log("INCLUYE @");await choose()}
     // while (choosen.includes('@')) choosen = choosen.replace('@', '')
-    while (choosen.socialNet==='tw' && choosen.user!=='CarlosMaslaton') await choose()
-    while (choosen.socialNet==='tw' && choosen.post.includes('@')) await choose()
-    while (choosen.post.includes('soundcloud.com')) await choose()
+    
+    while (
+        choosen.socialNet==='tw'
+        && (
+            choosen.post.includes('@')
+            || choosen.user.trim()!='CarlosMaslaton'
+            || choosen.post.includes('soundcloud.com')
+        )
+    ) await choose()
 
     let post_text:string
     if (choosen.socialNet==='tw') post_text = choosen.post
