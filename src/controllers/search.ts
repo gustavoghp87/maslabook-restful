@@ -9,7 +9,7 @@ export const searchGet = async (req:any, res:any) => {
     try {
         Axios(`https://api.countapi.xyz/update/maslabook/${counterPsw}?amount=1`)
     } catch(e) {console.log("Error en el contador: " + e)}
-    res.status(200)
+    res.status(200).json({msg:'ok'})
 }
 
 export const searchPost = async (req:any, res:any) => {

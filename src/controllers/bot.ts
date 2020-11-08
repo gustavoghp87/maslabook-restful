@@ -21,7 +21,7 @@ export const bot = async (req:any, res:any) => {
         let random:number
         random = Math.floor(Math.random() * 46066)
         const post:any = await Post.findOne({innerId:random})
-        console.log("Random:", random, ", red:", post.socialNet, "post:", post.post)
+        console.log("Random:", random, ", red:", post.socialNet, ", user:", post.user, "post:", post.post)
         choosen = post
     }
     await choose()
