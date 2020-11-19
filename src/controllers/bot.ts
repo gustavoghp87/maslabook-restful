@@ -36,7 +36,7 @@ export const bot = async (req:any, res:any) => {
         const url = choosen.postUrl.includes('\n')
             ? choosen.postUrl.replace('\n','')
             : choosen.postUrl
-        const len = 280 - url.length - 5 + 23
+        const len = 280 - url.length - 5 + 18
         post_text = `${choosen.post.slice(0,len)} ... ${url}`
     }
     console.log("post_text:", post_text)
