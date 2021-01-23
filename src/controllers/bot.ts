@@ -27,6 +27,7 @@ export const bot = async (req:any, res:any) => {
             choosen.post.includes('@')
             || choosen.user.trim()!='CarlosMaslaton'
             || choosen.post.includes('soundcloud.com')
+            || choosen.post.includes('Pallarols')
         )
     ) await choose()
 

@@ -8,11 +8,11 @@ import { counter } from '../controllers/counter'
 import { bot } from '../controllers/bot'
 
 
-const router = express.Router()
 export const counterPsw = process.env.counterPsw
 export const secretKey = process.env.secretKey
 export const COUNTER_PW = process.env.COUNTER_PW
 
+const router = express.Router()
 
 router.get('/maslabook', searchGet)
 
@@ -29,5 +29,6 @@ router.get('/maslazoom', zoom)
 router.post('/counter', counter)
 
 router.post('/bot', bot)
+
 
 export default router
