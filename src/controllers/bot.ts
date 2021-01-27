@@ -17,18 +17,15 @@ export const bot = async (req:any, res:any) => {
         choosen = post
     }
     await choose()
-
-    // while (choosen.post.includes('@')) {console.log("INCLUYE @");await choose()}
-    // while (choosen.includes('@')) choosen = choosen.replace('@', '')
     
     while (
-        choosen.socialNet==='tw'
-        && (
-            choosen.post.includes('@')
-            || choosen.user.trim()!='CarlosMaslaton'
-            || choosen.post.includes('soundcloud.com')
-            || choosen.post.includes('Pallarols')
-        )
+        (choosen.socialNet==='tw'
+            && (
+                choosen.post.includes('@')
+                || choosen.user.trim()!='CarlosMaslaton'
+                || choosen.post.includes('soundcloud.com')
+            )
+        ) || choosen.post.includes('Pallarols')
     ) await choose()
 
     let post_text:string
