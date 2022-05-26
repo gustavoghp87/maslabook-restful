@@ -1,0 +1,796 @@
+{
+    "objects": [
+        {
+            "id": 1,
+            "text": "Episodio #1552 Los Alimentos Agresores Son Obvios (1/4)",
+            "videoIdTW": "1384318601612627968",
+            "videoIdYT": "hA7QsbbEkvc",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 2,
+            "text": "Episodio #1552 Los Alimentos Agresores Son Obvios (2/4)",
+            "videoIdTW": "1384322771598073857",
+            "videoIdYT": "hA7QsbbEkvc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 3,
+            "text": "Episodio #1552 Los Alimentos Agresores Son Obvios (3/4)",
+            "videoIdTW": "1384324532677267467",
+            "videoIdYT": "hA7QsbbEkvc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 4,
+            "text": "Episodio #1552 Los Alimentos Agresores Son Obvios (4/4)",
+            "videoIdTW": "1384324802358431746",
+            "videoIdYT": "hA7QsbbEkvc",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 5,
+            "text": "La Diabetes es un Negocio (1/13)",
+            "videoIdTW": "1384618797504532483",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 6,
+            "text": "La Diabetes es un Negocio (2/13)",
+            "videoIdTW": "1384619262665379844",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 7,
+            "text": "La Diabetes es un Negocio (3/13)",
+            "videoIdTW": "1384621998341505029",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 8,
+            "text": "La Diabetes es un Negocio (4/13)",
+            "videoIdTW": "1385350221069234184",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 9,
+            "text": "La Diabetes es un Negocio (5/13)",
+            "videoIdTW": "1385350404301541377",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 10,
+            "text": "La Diabetes es un Negocio (6/13)",
+            "videoIdTW": "1385352465411887114",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 11,
+            "text": "La Diabetes es un Negocio (7/13)",
+            "videoIdTW": "1385354309068627973",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 12,
+            "text": "La Diabetes es un Negocio (8/13)",
+            "videoIdTW": "1385357022221283332",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 13,
+            "text": "La Diabetes es un Negocio (9/13)",
+            "videoIdTW": "1385359529475461127",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 14,
+            "text": "La Diabetes es un Negocio (10/13)",
+            "videoIdTW": "1385361714460364804",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 15,
+            "text": "La Diabetes es un Negocio (11/13)",
+            "videoIdTW": "1385363999198429184",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 16,
+            "text": "La Diabetes es un Negocio (12/13)",
+            "videoIdTW": "1385371312730910727",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 17,
+            "text": "La Diabetes es un Negocio (13/13)",
+            "videoIdTW": "1385373063668240393",
+            "videoIdYT": "3Bg5jDCuooc",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 18,
+            "text": "Episodio #1705 Los Asesinos Del Pobre Huevo (1/3)",
+            "videoIdTW": "1385421026406846466",
+            "videoIdYT": "dcryKVU_txY",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 19,
+            "text": "Episodio #1705 Los Asesinos Del Pobre Huevo (2/3)",
+            "videoIdTW": "1385422740069494784",
+            "videoIdYT": "dcryKVU_txY",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 20,
+            "text": "Episodio #1705 Los Asesinos Del Pobre Huevo (3/3)",
+            "videoIdTW": "1385423407727226888",
+            "videoIdYT": "dcryKVU_txY",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 21,
+            "text": "Episodio #1280 ¿Evitar La Yema Del Huevo? (1/2)",
+            "videoIdTW": "1385426206879850498",
+            "videoIdYT": "6CMabkl1LKk",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 22,
+            "text": "Episodio #1280 ¿Evitar La Yema Del Huevo? (2/2)",
+            "videoIdTW": "1385426901599236099",
+            "videoIdYT": "6CMabkl1LKk",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 23,
+            "text": "Episodio #1677 ¿Buena O Mala La Dieta Vegana? (1/3)",
+            "videoIdTW": "1385432676623130626",
+            "videoIdYT": "L2fpUPkKAcI",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 24,
+            "text": "Episodio #1677 ¿Buena O Mala La Dieta Vegana? (2/3)",
+            "videoIdTW": "1385433366149967879",
+            "videoIdYT": "L2fpUPkKAcI",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 25,
+            "text": "Episodio #1677 ¿Buena O Mala La Dieta Vegana? (3/3)",
+            "videoIdTW": "1385433629380300803",
+            "videoIdYT": "L2fpUPkKAcI",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 26,
+            "text": "Episodio #199 Características Dominantes De Las Personas Con Sistema Nervioso Excitado (1/2)",
+            "videoIdTW": "1385446825923072000",
+            "videoIdYT": "GPzRYYGigUU",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 27,
+            "text": "Episodio #199 Características Dominantes De Las Personas Con Sistema Nervioso Excitado (2/2)",
+            "videoIdTW": "1385449436566933506",
+            "videoIdYT": "GPzRYYGigUU",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 28,
+            "text": "Episodio #1788 Cuando Ser Vegano Puede Dañar Tu Salud (1/2)",
+            "videoIdTW": "1385438057348931589",
+            "videoIdYT": "dsIrotHN3wI",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 29,
+            "text": "Episodio #1788 Cuando Ser Vegano Puede Dañar Tu Salud (2/2)",
+            "videoIdTW": "1385438599567585283",
+            "videoIdYT": "dsIrotHN3wI",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 30,
+            "text": "Episodio #1255 Nos Mienten Sobre La Leche (1/2)",
+            "videoIdTW": "1385635109039181825",
+            "videoIdYT": "1nlepKb56gk",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 31,
+            "text": "Episodio #1255 Nos Mienten Sobre La Leche (2/2)",
+            "videoIdTW": "1385637835743633415",
+            "videoIdYT": "1nlepKb56gk",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 32,
+            "text": "Episodio #1391 Sube Tu Musculatura ¿Comiendo Huevo?",
+            "videoIdTW": "1385639354144641033",
+            "videoIdYT": "rcj16qw8hnQ",
+            "isTheFirstOne": true,
+            "isTheLastOne": true
+        },
+        {
+            "id": 33,
+            "text": "Episodio #1153 El Hongo Cándida Te Controla a Ti (1/2)",
+            "videoIdTW": "1385643784780886026",
+            "videoIdYT": "Mt5SbyKXago",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 34,
+            "text": "Episodio #1153 El Hongo Cándida Te Controla a Ti (2/2)",
+            "videoIdTW": "1385643972048080896",
+            "videoIdYT": "Mt5SbyKXago",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 35,
+            "text": "Episodio #721 ¿Cómo curar el hongo cándida efectivamente? (1/4)",
+            "videoIdTW": "1385645632459841552",
+            "videoIdYT": "U_BfnQkd7Kc",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 36,
+            "text": "Episodio #721 ¿Cómo curar el hongo cándida efectivamente? (2/4)",
+            "videoIdTW": "1385647002449498118",
+            "videoIdYT": "U_BfnQkd7Kc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 37,
+            "text": "Episodio #721 ¿Cómo curar el hongo cándida efectivamente? (3/4)",
+            "videoIdTW": "1385648409726668802",
+            "videoIdYT": "U_BfnQkd7Kc",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 38,
+            "text": "Episodio #721 ¿Cómo curar el hongo cándida efectivamente? (4/4)",
+            "videoIdTW": "1385648677230874632",
+            "videoIdYT": "U_BfnQkd7Kc",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 39,
+            "text": "Episodio #143 El Huevo Es Inocente",
+            "videoIdTW": "1385649575629893632",
+            "videoIdYT": "Qo2t_9g2rXU",
+            "isTheFirstOne": true,
+            "isTheLastOne": true
+        },
+        {
+            "id": 40,
+            "text": "Episodio # 883 El Aceite de Coco Mata Hongos (1/2)",
+            "videoIdTW": "1385654565282930694",
+            "videoIdYT": "nbBUWlA0NgI",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 41,
+            "text": "Episodio # 883 El Aceite de Coco Mata Hongos (2/2)",
+            "videoIdTW": "1385654732191117314",
+            "videoIdYT": "nbBUWlA0NgI",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 42,
+            "text": "Episodio #1502 Quimioterapia: Gran Mayoría De Médicos No La Usarían (1/3)",
+            "videoIdTW": "1385657082767155200",
+            "videoIdYT": "VZOckMZBrac",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 43,
+            "text": "Episodio #1502 Quimioterapia: Gran Mayoría De Médicos No La Usarían (2/3)",
+            "videoIdTW": "1385658037772378116",
+            "videoIdYT": "VZOckMZBrac",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 44,
+            "text": "Episodio #1502 Quimioterapia: Gran Mayoría De Médicos No La Usarían (3/3)",
+            "videoIdTW": "1385658302508449792",
+            "videoIdYT": "VZOckMZBrac",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 45,
+            "text": "Episodio #29 Endulzadores Artificiales (1/2)",
+            "videoIdTW": "1385772800967852033",
+            "videoIdYT": "zVwAJ8BAswE",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 46,
+            "text": "Episodio #29 Endulzadores Artificiales (2/2)",
+            "videoIdTW": "1385775049538424832",
+            "videoIdYT": "zVwAJ8BAswE",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 47,
+            "text": "Episodio #385 La solución milagrosa para un excitado (1/2)",
+            "videoIdTW": "1385777396045975552",
+            "videoIdYT": "ay8hA8pEX0k",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 48,
+            "text": "Episodio #385 La solución milagrosa para un excitado (2/2)",
+            "videoIdTW": "1385778933430374402",
+            "videoIdYT": "ay8hA8pEX0k",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 49,
+            "text": "Episodio #1200 Vitamina C ¿Me ayuda o perjudica? (1/2)",
+            "videoIdTW": "1385789221911343104",
+            "videoIdYT": "7blGgTJwnJY",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 50,
+            "text": "Episodio #1200 Vitamina C ¿Me ayuda o perjudica? (2/2)",
+            "videoIdTW": "1385789568075636745",
+            "videoIdYT": "7blGgTJwnJY",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 51,
+            "text": "Episodio #1614 Las 20 Características De La Gente Tóxica (1/2)",
+            "videoIdTW": "1385967115581235203",
+            "videoIdYT": "T51zd8ugjmQ",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 52,
+            "text": "Episodio #1614 Las 20 Características De La Gente Tóxica (2/2)",
+            "videoIdTW": "1385967952562958347",
+            "videoIdYT": "T51zd8ugjmQ",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 53,
+            "text": "Episodio #1220 3 Mentiras Sobre El Colesterol (1/3)",
+            "videoIdTW": "1385972290240880640",
+            "videoIdYT": "RYDB0oDSdm4",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 54,
+            "text": "Episodio #1220 3 Mentiras Sobre El Colesterol (2/3)",
+            "videoIdTW": "1385972817024503808",
+            "videoIdYT": "RYDB0oDSdm4",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 55,
+            "text": "Episodio #1220 3 Mentiras Sobre El Colesterol (3/3)",
+            "videoIdTW": "1385973020926283783",
+            "videoIdYT": "RYDB0oDSdm4",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 56,
+            "text": "Episodio #1071 La verdadera causa de la anemia",
+            "videoIdTW": "1386001172138536965",
+            "videoIdYT": "SP2XRF25AHA",
+            "isTheFirstOne": true,
+            "isTheLastOne": true
+        },
+        {
+            "id": 57,
+            "text": "Episodio #1735 La Anemia No Siempre Necesita Hierro",
+            "videoIdTW": "1386005975895838727",
+            "videoIdYT": "VZ5hkvkH5-c",
+            "isTheFirstOne": true,
+            "isTheLastOne": true
+        },
+        {
+            "id": 58,
+            "text": "Acidez Estomacal o Gastritis (1/2)",
+            "videoIdTW": "1386013154522587145",
+            "videoIdYT": "Ra3OkTkrERo",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 59,
+            "text": "Acidez Estomacal o Gastritis (2/2)",
+            "videoIdTW": "1386014606620073986",
+            "videoIdYT": "Ra3OkTkrERo",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 60,
+            "text": "Episodio #2026 Mucho Hongo Y Muchas Alergias (1/2)",
+            "videoIdTW": "1386703882445893633",
+            "videoIdYT": "Pcf6Lpr7kz4",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 61,
+            "text": "Episodio #2026 Mucho Hongo Y Muchas Alergias (2/2)",
+            "videoIdTW": "1386705122332487680",
+            "videoIdYT": "Pcf6Lpr7kz4",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 62,
+            "text": "Episodio #1532 Los 4 exámenes de laboratorios más importantes (1/2)",
+            "videoIdTW": "1386710554924961795",
+            "videoIdYT": "CpxJa4UF16k",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 63,
+            "text": "Episodio #1532 Los 4 exámenes de laboratorios más importantes (2/2)",
+            "videoIdTW": "1386713075617763329",
+            "videoIdYT": "CpxJa4UF16k",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 64,
+            "text": "Episodio #1737 Mil o más enfermedades y una sola causa",
+            "videoIdTW": "1386719719491833856",
+            "videoIdYT": "hN1D_iNsve8",
+            "isTheFirstOne": true,
+            "isTheLastOne": true
+        },
+        {
+            "id": 65,
+            "text": "Episodio #1410 Causa De Ojos Resecos (1/2)",
+            "videoIdTW": "1387126247814307845",
+            "videoIdYT": "jDDUakYu-sI",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 66,
+            "text": "Episodio #1410 Causa De Ojos Resecos (2/2)",
+            "videoIdTW": "1387126585367609344",
+            "videoIdYT": "jDDUakYu-sI",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 67,
+            "text": "Episodio #1805 No Dañes El Sistema Nervioso De Tus Niños (1/4)",
+            "videoIdTW": "1387134099358371843",
+            "videoIdYT": "sqJyELyDi_E",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 68,
+            "text": "Episodio #1805 No Dañes El Sistema Nervioso De Tus Niños (2/4)",
+            "videoIdTW": "1387135528454262789",
+            "videoIdYT": "sqJyELyDi_E",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 69,
+            "text": "Episodio #1805 No Dañes El Sistema Nervioso De Tus Niños (3/4)",
+            "videoIdTW": "1387141652150632465",
+            "videoIdYT": "sqJyELyDi_E",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 70,
+            "text": "Episodio #1805 No Dañes El Sistema Nervioso De Tus Niños (4/4)",
+            "videoIdTW": "1387141974474600452",
+            "videoIdYT": "sqJyELyDi_E",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 71,
+            "text": "Episodio #200 Alergias De Temporada (1/2)",
+            "videoIdTW": "1387148160162803719",
+            "videoIdYT": "HgE-CtaS8-E",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 72,
+            "text": "Episodio #200 Alergias De Temporada (2/2)",
+            "videoIdTW": "1387148702133915659",
+            "videoIdYT": "HgE-CtaS8-E",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 73,
+            "text": "Episodio #828 Los Jugos De Vegetales Salvan Vidas",
+            "videoIdTW": "1387422174475083777",
+            "videoIdYT": "G8Om7PYehaQ",
+            "isTheFirstOne": true,
+            "isTheLastOne": true
+        },
+        {
+            "id": 74,
+            "text": "Episodio #1595 La Cura Está Prohibida (1/2)",
+            "videoIdTW": "1387427684251230209",
+            "videoIdYT": "b3KeJ8DFjwQ",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 75,
+            "text": "Episodio #1595 La Cura Está Prohibida (2/2)",
+            "videoIdTW": "1387428790599667714",
+            "videoIdYT": "b3KeJ8DFjwQ",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 76,
+            "text": "Episodio #1540 Prepárese para el impact0 de una v*c*n* (1/2)",
+            "videoIdTW": "1390354571445342211",
+            "videoIdYT": "gLNqVKo6nZk",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 77,
+            "text": "Episodio #1540 Prepárese para el impact0 de una v*c*n* (2/2)",
+            "videoIdTW": "1390357059531649027",
+            "videoIdYT": "gLNqVKo6nZk",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 78,
+            "text": "Episodio #1295 La Sal No Es Mala (1/3)",
+            "videoIdTW": "1452776006700437511",
+            "videoIdYT": "HT817tW_PxA",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 79,
+            "text": "Episodio #1295 La Sal No Es Mala (2/3)",
+            "videoIdTW": "1452776279959384074",
+            "videoIdYT": "HT817tW_PxA",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 80,
+            "text": "Episodio #1295 La Sal No Es Mala (3/3)",
+            "videoIdTW": "1452777217273081870",
+            "videoIdYT": "HT817tW_PxA",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 81,
+            "text": "Episodio #1191 Siempre Tengo La Boca Seca (1/2)",
+            "videoIdTW": "1452797409298460672",
+            "videoIdYT": "oVWCFcylLWI",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 82,
+            "text": "Episodio #1191 Siempre Tengo La Boca Seca (2/2)",
+            "videoIdTW": "1452797770365087745",
+            "videoIdYT": "oVWCFcylLWI",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 83,
+            "text": "Episodio #1764 Un Veneno Llamado Leche (1/3)",
+            "videoIdTW": "1455162890802155520",
+            "videoIdYT": "6z92HXli0xg",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 84,
+            "text": "Episodio #1764 Un Veneno Llamado Leche (2/3)",
+            "videoIdTW": "1455163417606725639",
+            "videoIdYT": "6z92HXli0xg",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 85,
+            "text": "Episodio #1764 Un Veneno Llamado Leche (3/3)",
+            "videoIdTW": "1455163642517807115",
+            "videoIdYT": "6z92HXli0xg",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 86,
+            "text": "Episodio #1138 El Sol No Causa Cancer, Lo Evita (1/3)",
+            "videoIdTW": "1495512205957152780",
+            "videoIdYT": "6IQ4uOjOo4M",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 87,
+            "text": "Episodio #1138 El Sol No Causa Cancer, Lo Evita (2/3)",
+            "videoIdTW": "1495517961326632963",
+            "videoIdYT": "6IQ4uOjOo4M",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 88,
+            "text": "Episodio #1138 El Sol No Causa Cancer, Lo Evita (3/3)",
+            "videoIdTW": "1495518899915431945",
+            "videoIdYT": "6IQ4uOjOo4M",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 89,
+            "text": "Episodio #1181 Salva Tus Riñones (1/3)",
+            "videoIdTW": "1495525225311657984",
+            "videoIdYT": "mg-vdfMsVbM",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 90,
+            "text": "Episodio #1181 Salva Tus Riñones (2/3)",
+            "videoIdTW": "1495525751231295498",
+            "videoIdYT": "mg-vdfMsVbM",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 91,
+            "text": "Episodio #1181 Salva Tus Riñones (3/3)",
+            "videoIdTW": "1495528285215854596",
+            "videoIdYT": "mg-vdfMsVbM",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 92,
+            "text": "Episodio #732 Los jugos de frutas naturales venenosos (1/3)",
+            "videoIdTW": "1495542663235489794",
+            "videoIdYT": "Rj1N0lWw84Y",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 93,
+            "text": "Episodio #732 Los jugos de frutas naturales venenosos (2/3)",
+            "videoIdTW": "1495545016630054916",
+            "videoIdYT": "Rj1N0lWw84Y",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 94,
+            "text": "Episodio #732 Los jugos de frutas naturales venenosos (3/3)",
+            "videoIdTW": "1495545942786859008",
+            "videoIdYT": "Rj1N0lWw84Y",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 95,
+            "text": "Episodio #1194 El Demonio Del Aceite De Coco (1/3)",
+            "videoIdTW": "1495554106483687426",
+            "videoIdYT": "0pKphO85-H0",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 96,
+            "text": "Episodio #1194 El Demonio Del Aceite De Coco (2/3)",
+            "videoIdTW": "1495554494658134022",
+            "videoIdYT": "0pKphO85-H0",
+            "isTheFirstOne": false,
+            "isTheLastOne": false
+        },
+        {
+            "id": 97,
+            "text": "Episodio #1194 El Demonio Del Aceite De Coco (3/3)",
+            "videoIdTW": "1495555402011971591",
+            "videoIdYT": "0pKphO85-H0",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        },
+        {
+            "id": 98,
+            "text": "Episodio #225 Las Mentiras Causan Sufrimiento (1/2)",
+            "videoIdTW": "1497049829738000405",
+            "videoIdYT": "NIFNrTTKL_Y",
+            "isTheFirstOne": true,
+            "isTheLastOne": false
+        },
+        {
+            "id": 99,
+            "text": "Episodio #225 Las Mentiras Causan Sufrimiento (2/2)",
+            "videoIdTW": "1497052487936708610",
+            "videoIdYT": "NIFNrTTKL_Y",
+            "isTheFirstOne": false,
+            "isTheLastOne": true
+        }
+    ]
+}
