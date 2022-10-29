@@ -845,7 +845,7 @@
             "text": "Episodio #975: Cocinando El Caldo De Huesos Milagroso (1/3)",
             "videoIdTW": "1531404803691139073",
             "videoIdYT": "OpGxNbxGn50",
-            "isTheFirstOne": false,
+            "isTheFirstOne": true,
             "isTheLastOne": false
         },
         {
@@ -869,8 +869,8 @@
             "text": "Episodio #1252: El Ajo Es Milagroso (1/3)",
             "videoIdTW": "1531398626546704386",
             "videoIdYT": "dQZddCCjmvY",
-            "isTheFirstOne": false,
-            "isTheLastOne": true
+            "isTheFirstOne": true,
+            "isTheLastOne": false
         },
         {
             "id": 110,
@@ -878,7 +878,7 @@
             "videoIdTW": "1531400085224947713",
             "videoIdYT": "dQZddCCjmvY",
             "isTheFirstOne": false,
-            "isTheLastOne": true
+            "isTheLastOne": false
         },
         {
             "id": 111,
