@@ -17,7 +17,7 @@ export const takeScreenshot = async (url: string): Promise<string|Buffer|null> =
     try {
         const stats = await PCR(options)
         const browser = await stats.puppeteer.launch({
-            args: ["--fast-start", "--disable-extensions", "--no-sandbox"],
+            args: ["--fast-start", "--disable-extensions", "--no-sandbox", "--disable-setuid-sandbox"],
             executablePath: stats.executablePath,
             headless: true,
             ignoreHTTPSErrors: true

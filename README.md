@@ -18,3 +18,10 @@ El buscador se desentiende del problema de los acentos ortográficos mediante al
 
 [maslabook.com]: <https://maslabook.com/>
 [maslazoom]: <https://maslabook.com/maslazoom/>
+
+
+###################################################################################
+
+heroku buildpacks:clear
+heroku buildpacks:add --index 1 https://github.com/jontewks/puppeteer-heroku-buildpack
+heroku buildpacks:add --index 1 heroku/nodejs
