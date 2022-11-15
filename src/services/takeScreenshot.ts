@@ -1,10 +1,28 @@
-import puppeteer from 'puppeteer'
+//import puppeteer from 'puppeteer'
+import PCR from 'puppeteer-chromium-resolver'
 
 export const takeScreenshot = async (url: string): Promise<string|Buffer|null> => {
-    const selector = '#contentArea'
     let image: string|Buffer|null = null
+    const selector = '#contentArea'
+    const options = {
+        cacheRevisions: 2,
+        defaultHosts: [],
+        detectionPath: "",
+        folderName: ".chromium-browser-snapshots",
+        hosts: [],
+        retry: 3,
+        revision: "",
+        silent: true
+    }
     try {
-        const browser = await puppeteer.launch()
+        const stats = await PCR(options)
+        const browser = await stats.puppeteer.launch({
+            args: ["--fast-start", "--disable-extensions", "--no-sandbox"],
+            executablePath: stats.executablePath,
+            headless: true,
+            ignoreHTTPSErrors: true
+        })
+        //const browser = await puppeteer.launch()
         const page = await browser.newPage()
         await page.goto(url)
         await page.waitForSelector(selector)
