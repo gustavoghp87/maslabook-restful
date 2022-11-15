@@ -1,5 +1,5 @@
-//import puppeteer from 'puppeteer'
-import PCR from 'puppeteer-chromium-resolver'
+import puppeteer from 'puppeteer'
+//import PCR from 'puppeteer-chromium-resolver'
 
 export const takeScreenshot = async (url: string): Promise<string|Buffer|null> => {
     let image: string|Buffer|null = null
@@ -15,14 +15,18 @@ export const takeScreenshot = async (url: string): Promise<string|Buffer|null> =
         silent: true
     }
     try {
-        const stats = await PCR(options)
-        const browser = await stats.puppeteer.launch({
+        //const stats = await PCR(options)
+        // const browser = await stats.puppeteer.launch({
+        //     args: ["--fast-start", "--disable-extensions", "--no-sandbox", "--disable-setuid-sandbox"],
+        //     executablePath: stats.executablePath,
+        //     headless: true,
+        //     ignoreHTTPSErrors: true
+        // })
+        const browser = await puppeteer.launch({
             args: ["--fast-start", "--disable-extensions", "--no-sandbox", "--disable-setuid-sandbox"],
-            executablePath: stats.executablePath,
             headless: true,
             ignoreHTTPSErrors: true
         })
-        //const browser = await puppeteer.launch()
         const page = await browser.newPage()
         await page.goto(url)
         await page.waitForSelector(selector)
