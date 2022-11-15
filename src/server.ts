@@ -4,7 +4,6 @@ import indexRoutes from './routes/index.routes'
 import { connectDB } from './controllers/database'
 import cors from 'cors'
 
-
 const app = express()
 
 app.set('port', process.env.PORT || 8005)
