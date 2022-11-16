@@ -1,16 +1,5 @@
 import puppeteer, { executablePath } from 'puppeteer'
 //import PCR from 'puppeteer-chromium-resolver'
-import { join } from 'path'
-
-/**
- * @type {import("puppeteer").Configuration}
- */
-module.exports = {
-  cacheDirectory: join(__dirname, '.cache', 'puppeteer'),
-  experiments: {
-    macArmChromiumEnabled: true
-  }
-}
 
 export const takeScreenshot = async (url: string): Promise<string|Buffer|null> => {
     let image: string|Buffer|null = null
@@ -25,6 +14,7 @@ export const takeScreenshot = async (url: string): Promise<string|Buffer|null> =
     //     revision: "",
     //     silent: true
     // }
+    console.log("URL: " + url)
     try {
         //const stats = await PCR(options)
         //const stats = PCR.getStats()

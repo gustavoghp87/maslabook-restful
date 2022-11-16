@@ -4,6 +4,18 @@ import indexRoutes from './routes/index.routes'
 import { connectDB } from './controllers/database'
 import cors from 'cors'
 
+import { join } from 'path'
+
+/**
+ * @type {import("puppeteer").Configuration}
+ */
+module.exports = {
+  cacheDirectory: join(__dirname, '.cache', 'puppeteer'),
+  experiments: {
+    macArmChromiumEnabled: true
+  }
+}
+
 const app = express()
 
 app.set('port', process.env.PORT || 8005)
