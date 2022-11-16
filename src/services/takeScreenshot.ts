@@ -1,5 +1,5 @@
-//import puppeteer from 'puppeteer'
-import PCR from 'puppeteer-chromium-resolver'
+import puppeteer from 'puppeteer'
+//import PCR from 'puppeteer-chromium-resolver'
 
 export const takeScreenshot = async (url: string): Promise<string|Buffer|null> => {
     let image: string|Buffer|null = null
@@ -16,18 +16,18 @@ export const takeScreenshot = async (url: string): Promise<string|Buffer|null> =
     // }
     try {
         //const stats = await PCR(options)
-        const stats = PCR.getStats()
-        const browser = await stats.puppeteer.launch({
-            args: ["--fast-start", "--disable-extensions", "--no-sandbox", "--disable-setuid-sandbox"],
-            executablePath: stats.executablePath,
-            headless: true,
-            ignoreHTTPSErrors: true
-        })
-        // const browser = await puppeteer.launch({
+        //const stats = PCR.getStats()
+        // const browser = await stats.puppeteer.launch({
         //     args: ["--fast-start", "--disable-extensions", "--no-sandbox", "--disable-setuid-sandbox"],
+        //     executablePath: stats.executablePath,
         //     headless: true,
         //     ignoreHTTPSErrors: true
         // })
+        const browser = await puppeteer.launch({
+            args: ["--no-sandbox", "--disable-setuid-sandbox"],
+            headless: true,
+            ignoreHTTPSErrors: true
+        })
         const page = await browser.newPage()
         await page.goto(url)
         await page.waitForSelector(selector)
@@ -36,6 +36,7 @@ export const takeScreenshot = async (url: string): Promise<string|Buffer|null> =
             page.addStyleTag({ content: '#headerArea{display: none;}' })
             image = await element.screenshot({ encoding: 'base64', type: 'jpeg' })
         }
+        await page.close()
         await browser.close()
         return image
     } catch (e) {
