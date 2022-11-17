@@ -8,7 +8,7 @@
     "build": "tsc",
     "start": "node build/server.js",
     "tsc": "tsc",
-    "postinstall": "npm run tsc"
+    "postinstall": "npm run tsc && npm install --production"
   },
   "engines": {
     "node": "16.x"
