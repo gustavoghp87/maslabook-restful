@@ -5,7 +5,10 @@ config()
 
 export const connectDB = async (uri: string) => {
     try {
-        await mongoose.connect(uri)
+        await mongoose.connect(uri, {
+            useUnifiedTopology: true,
+            useNewUrlParser: true
+        })
         console.log("\nDB connected\n")
     } catch {
         "Failed DB"
