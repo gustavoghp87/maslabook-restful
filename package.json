@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"tsc -w\" \"nodemon build/server.js\"",
-    "build": "npm install && tsc",
+    "build": "npm install",
     "start": "node build/server.js",
     "tsc": "tsc",
     "postinstall": "npm run tsc"
