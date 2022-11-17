@@ -1,5 +1,10 @@
-import puppeteer, { executablePath } from 'puppeteer'
+import puppeteer from 'puppeteer'
 //import PCR from 'puppeteer-chromium-resolver'
+
+// export const getScreenshot = async (url: string, selector: string): Promise<string|Buffer|null> => {
+
+//     axios.get('181.229.237.51')
+// }
 
 export const takeScreenshot = async (url: string): Promise<string|Buffer|null> => {
     let image: string|Buffer|null = null
@@ -26,7 +31,6 @@ export const takeScreenshot = async (url: string): Promise<string|Buffer|null> =
         // })
         const browser = await puppeteer.launch({
             args: ["--no-sandbox", "--disable-setuid-sandbox"],
-            executablePath: executablePath(),
             headless: true,
             ignoreHTTPSErrors: true,
         })
