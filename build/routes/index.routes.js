@@ -1,0 +1,35 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.COUNTER_PW = exports.secretKey = exports.counterPsw = void 0;
+const express_1 = __importDefault(require("express"));
+const dotenv_1 = require("dotenv");
+(0, dotenv_1.config)();
+const search_1 = require("../controllers/search");
+const story_1 = require("../controllers/story");
+const boards_1 = require("../controllers/boards");
+const zoom_1 = require("../controllers/zoom");
+const counter_1 = require("../controllers/counter");
+const bot_1 = require("../controllers/bot");
+const path_1 = __importDefault(require("path"));
+const fs_1 = __importDefault(require("fs"));
+exports.counterPsw = process.env.counterPsw;
+exports.secretKey = process.env.secretKey;
+exports.COUNTER_PW = process.env.COUNTER_PW;
+const router = express_1.default.Router();
+router.get('/maslabook', search_1.searchGet);
+router.post('/maslabook', search_1.searchPost);
+router.get('/maslastory', story_1.story);
+router.get('/maslaboard', boards_1.boardsGet);
+router.post('/maslaboard', boards_1.boardsPost);
+router.get('/maslazoom', zoom_1.zoom);
+router.post('/counter', counter_1.counter);
+router.post('/bot', bot_1.bot);
+router.get('/franktv', (req, res) => {
+    const jsonString = fs_1.default.readFileSync(path_1.default.resolve('./src/data/storage.json'));
+    const customer = JSON.parse(jsonString.toString());
+    res.json(customer);
+});
+exports.default = router;
