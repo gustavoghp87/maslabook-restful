@@ -30,9 +30,8 @@ export const takeScreenshot = async (url: string): Promise<string|Buffer|null> =
         //     ignoreHTTPSErrors: true
         // })
         const browser = await puppeteer.launch({
-            args: ["--no-sandbox", "--disable-setuid-sandbox"],
             headless: true,
-            ignoreHTTPSErrors: true,
+            args: ["--no-sandbox", "--disable-setuid-sandbox"]
         })
         const page = await browser.newPage()
         await page.goto(url)
