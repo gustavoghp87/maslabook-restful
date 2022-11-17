@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"tsc -w\" \"nodemon build/server.js\"",
-    "build": "tsc && yarn install",
+    "build": "tsc",
     "start": "node build/server.js",
     "tsc": "tsc",
-    "postinstall": "yarn run tsc"
+    "postinstall": "npm run tsc"
   },
   "engines": {
     "node": "16.x"
