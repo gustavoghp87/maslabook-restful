@@ -7,8 +7,7 @@
     "dev": "concurrently \"tsc -w\" \"nodemon build/server.js\"",
     "build": "npm install",
     "start": "node build/server.js",
-    "tsc": "tsc",
-    "postinstall": "npm install"
+    "tsc": "tsc"
   },
   "engines": {
     "node": "16.x"
